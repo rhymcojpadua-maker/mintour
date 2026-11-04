@@ -1,0 +1,1836 @@
+{
+    "dataset_name":  "Travel Oriental Mindoro - Victoria Municipality public tourism dataset",
+    "retrieved_at":  "2026-10-25T21:57:26+08:00",
+    "source":  "https://www.travelorientalmindoro.ph",
+    "scope":  "Public Victoria municipality profile, listed tourism destinations, festival, and municipal tourism office information available on the source portal.",
+    "municipality":  {
+                         "name":  "Victoria",
+                         "province":  "Oriental Mindoro",
+                         "population_approx":  35000,
+                         "land_area_sq_km_approx":  186,
+                         "listed_destinations":  27,
+                         "destination_counts":  {
+                                                    "resorts":  8,
+                                                    "restaurants":  7,
+                                                    "hotels":  4,
+                                                    "farms_agri_tourism":  3,
+                                                    "waterfalls_springs":  2,
+                                                    "cafes_coffee_shops":  1,
+                                                    "malls_shopping_centers":  1,
+                                                    "parks_nature_reserves":  1
+                                                },
+                         "source_url":  "https://www.travelorientalmindoro.ph/municipality/victoria",
+                         "notes":  "Population and land area are approximate as stated on the tourism portal; category counts are copied as presented there. Some count groups may overlap."
+                     },
+    "tourism_office":  {
+                           "name":  "Municipal Tourism Office - Victoria",
+                           "address":  "Old MHO Building, LGU Victoria, Poblacion 1, Victoria, Oriental Mindoro",
+                           "contact_person":  "Rey S. Mercado",
+                           "phone":  [
+                                         "0977-805-0305",
+                                         "043-285-5348"
+                                     ],
+                           "hours":  "Monday-Friday, 8:00 AM-5:00 PM",
+                           "source_url":  "https://www.travelorientalmindoro.ph/directory/tourism-offices"
+                       },
+    "festivals":  [
+                      {
+                          "name":  "Kapakyanan Festival",
+                          "municipality":  "Victoria",
+                          "annual_month_day":  "09-18",
+                          "description":  "The festival celebrates Victoria\u0027s agricultural abundance, including rice and citrus and tropical fruits such as rambutan, lanzones, and durian.",
+                          "source_url":  "https://www.travelorientalmindoro.ph/festival/kapakyanan-festival"
+                      }
+                  ],
+    "places":  [
+                   {
+                       "name":  "Bato Creek Kayaking \u0026 White Water Rafting",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/bato-creek-kayaking-white-water-rafting",
+                       "description":  "Savour the relaxing summer ambience and dip in the cool waters of Bato Creek River in Villa Cerveza, Victoria. It is a perfect summer destination where you can experience thrilling water activities such as kayaking and whitewater rafting while having a nice view of the peaceful scenery of lush tr...",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/144/gallery/20251211010900_d9ed5a20.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Villa Cerveza, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.10079253,
+                                   "longitude":  121.1760367
+                               },
+                       "telephone":  "0919-848-1018",
+                       "email":  "puertogalerawindmillfarm@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-11",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Bato Creek Kayaking \u0026 White Water Rafting?",
+                                       "answer":  "Bato Creek Kayaking \u0026 White Water Rafting is located in Victoria, Oriental Mindoro. The address is Villa Cerveza, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Bato Creek Kayaking \u0026 White Water Rafting?",
+                                       "answer":  "Bato Creek Kayaking \u0026 White Water Rafting is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  [
+                                                           "TouristAttraction",
+                                                           "BodyOfWater"
+                                                       ],
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/bato-creek-kayaking-white-water-rafting",
+                                             "name":  "Bato Creek Kayaking \u0026 White Water Rafting",
+                                             "description":  "Savour the relaxing summer ambience and dip in the cool waters of Bato Creek River in Villa Cerveza, Victoria. It is a perfect summer destination where you can experience thrilling water activities such as kayaking and whitewater rafting while having a nice view of the peaceful scenery of lush tr...",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/bato-creek-kayaking-white-water-rafting",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/144/gallery/20251211010900_d9ed5a20.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.10079253,
+                                                         "longitude":  121.1760367
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Villa Cerveza, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0919-848-1018",
+                                             "email":  "puertogalerawindmillfarm@gmail.com",
+                                             "dateModified":  "2025-12-11",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Equias Integrated Farm",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/equias-integrated-farm",
+                       "description":  "Equias Integrated Farm, also an accredited Learning Site for Agriculture is one of the must-visit farm tourism sites in Victoria as it not only offers farm activities for educational purposes but for recreational purposes as well.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/295/gallery/20251211071013_1c4d4fcd.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Victoria, 5205 Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.153093,
+                                   "longitude":  121.2890482
+                               },
+                       "telephone":  "0939-551-7813",
+                       "email":  "equias.integrated.farm@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Equias Integrated Farm?",
+                                       "answer":  "Equias Integrated Farm is located in Victoria, Oriental Mindoro. The address is Victoria, 5205 Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Equias Integrated Farm?",
+                                       "answer":  "Equias Integrated Farm is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "TouristAttraction",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/equias-integrated-farm",
+                                             "name":  "Equias Integrated Farm",
+                                             "description":  "Equias Integrated Farm, also an accredited Learning Site for Agriculture is one of the must-visit farm tourism sites in Victoria as it not only offers farm activities for educational purposes but for recreational purposes as well.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/equias-integrated-farm",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/295/gallery/20251211071013_1c4d4fcd.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.153093,
+                                                         "longitude":  121.2890482
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Victoria, 5205 Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0939-551-7813",
+                                             "email":  "equias.integrated.farm@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Kuatro Maria\u0027s Agroecology Farm",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/kuatro-marias-agroecology-farm",
+                       "description":  "Kuatro Maria\u0027s Agroecology Farm is one of the most famous farm tourism sites where one can visit for recreational and educational purposes.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/426/gallery/20251212015239_5fdb8dcb.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "San Narciso, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.19301961,
+                                   "longitude":  121.3116065
+                               },
+                       "telephone":  "0956 700 5023",
+                       "email":  "fjfarmerjon@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Kuatro Maria\u0027s Agroecology Farm?",
+                                       "answer":  "Kuatro Maria\u0027s Agroecology Farm is located in Victoria, Oriental Mindoro. The address is San Narciso, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Kuatro Maria\u0027s Agroecology Farm?",
+                                       "answer":  "Kuatro Maria\u0027s Agroecology Farm is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "TouristAttraction",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/kuatro-marias-agroecology-farm",
+                                             "name":  "Kuatro Maria\u0027s Agroecology Farm",
+                                             "description":  "Kuatro Maria\u0027s Agroecology Farm is one of the most famous farm tourism sites where one can visit for recreational and educational purposes.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/kuatro-marias-agroecology-farm",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/426/gallery/20251212015239_5fdb8dcb.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.19301961,
+                                                         "longitude":  121.3116065
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "San Narciso, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0956 700 5023",
+                                             "email":  "fjfarmerjon@gmail.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/KuatroMariasFarm"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Mabalbay Falls",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/mabalbay-falls",
+                       "description":  "About 40 minutes of trekking and traversing the stream takes you to Mabalbay Falls, a hidden gem in Villa Cerveza Vicotria. This destination is perfect for adventurous souls as it requires quite a skill for one to get to the waterfalls.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/465/gallery/20251212024645_8fcd03d4.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "villa cerveza, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.12205852,
+                                   "longitude":  121.1997945
+                               },
+                       "telephone":  "0919-848-1018",
+                       "email":  "sanrafaelcave@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Mabalbay Falls?",
+                                       "answer":  "Mabalbay Falls is located in Victoria, Oriental Mindoro. The address is villa cerveza, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Mabalbay Falls?",
+                                       "answer":  "Mabalbay Falls is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  [
+                                                           "TouristAttraction",
+                                                           "BodyOfWater"
+                                                       ],
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/mabalbay-falls",
+                                             "name":  "Mabalbay Falls",
+                                             "description":  "About 40 minutes of trekking and traversing the stream takes you to Mabalbay Falls, a hidden gem in Villa Cerveza Vicotria. This destination is perfect for adventurous souls as it requires quite a skill for one to get to the waterfalls.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/mabalbay-falls",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/465/gallery/20251212024645_8fcd03d4.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.12205852,
+                                                         "longitude":  121.1997945
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "villa cerveza, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0919-848-1018",
+                                             "email":  "sanrafaelcave@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "VCDC Farm",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/vcdc-farm",
+                       "description":  "VCDC Farm is a Farm Tourism Site and an ATI Learning Site for Agriculture located in Victoria. This farm and learning site is famous for their all-natural products such as Ginger Brew, Turmeric Brew, Ginger Turmeric Brew, Ginger Turmeric Candy and Calamansi Concentrate",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/799/gallery/20251212060901_88e795dc.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Brgy. Malamig, Leido, Victoria",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.17811591,
+                                   "longitude":  121.2769283
+                               },
+                       "telephone":  "9209019897",
+                       "email":  "mangyancuboolculturalboothoflove@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is VCDC Farm?",
+                                       "answer":  "VCDC Farm is located in Victoria, Oriental Mindoro. The address is Brgy. Malamig, Leido, Victoria."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit VCDC Farm?",
+                                       "answer":  "VCDC Farm is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "TouristAttraction",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/vcdc-farm",
+                                             "name":  "VCDC Farm",
+                                             "description":  "VCDC Farm is a Farm Tourism Site and an ATI Learning Site for Agriculture located in Victoria. This farm and learning site is famous for their all-natural products such as Ginger Brew, Turmeric Brew, Ginger Turmeric Brew, Ginger Turmeric Candy and Calamansi Concentrate",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/vcdc-farm",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/799/gallery/20251212060901_88e795dc.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.17811591,
+                                                         "longitude":  121.2769283
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Brgy. Malamig, Leido, Victoria",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "9209019897",
+                                             "email":  "mangyancuboolculturalboothoflove@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Victoria Nature Park",
+                       "category":  "attraction",
+                       "url":  "https://www.travelorientalmindoro.ph/place/victoria-nature-park",
+                       "description":  "Victoria Nature Park is the first Integrated Permaculture Farm in the province with a relaxing place overlooking the Naujan Lake. 17 hectares of land is dedicated to produce high quality agri products and to cater to farm tours, visits and educational demonstrations.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/802/gallery/20251212061637_d6fb1534.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Bambanin, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.15906977,
+                                   "longitude":  121.253292
+                               },
+                       "telephone":  "0977 497 1049",
+                       "email":  "lopezromel.vnp@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Victoria Nature Park?",
+                                       "answer":  "Victoria Nature Park is located in Victoria, Oriental Mindoro. The address is Bambanin, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Victoria Nature Park?",
+                                       "answer":  "Victoria Nature Park is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  [
+                                                           "TouristAttraction",
+                                                           "Park"
+                                                       ],
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/victoria-nature-park",
+                                             "name":  "Victoria Nature Park",
+                                             "description":  "Victoria Nature Park is the first Integrated Permaculture Farm in the province with a relaxing place overlooking the Naujan Lake. 17 hectares of land is dedicated to produce high quality agri products and to cater to farm tours, visits and educational demonstrations.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/victoria-nature-park",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/802/gallery/20251212061637_d6fb1534.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.15906977,
+                                                         "longitude":  121.253292
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Bambanin, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0977 497 1049",
+                                             "email":  "lopezromel.vnp@gmail.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/vnpfarmph"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "touristType":  "Leisure",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Atienza\u0027s Beach Resort",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/atienzas-beach-resort",
+                       "description":  "NULL",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/116/gallery/20251210070516_ceec9c0c.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "NULL",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  null,
+                       "telephone":  null,
+                       "email":  "vicky.atienza001@deped.gov.ph",
+                       "priceRange":  null,
+                       "dateModified":  "2026-02-09",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Atienza\u0027s Beach Resort?",
+                                       "answer":  "Atienza\u0027s Beach Resort is located in Victoria, Oriental Mindoro. The address is NULL."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Atienza\u0027s Beach Resort?",
+                                       "answer":  "Atienza\u0027s Beach Resort is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/atienzas-beach-resort",
+                                             "name":  "Atienza\u0027s Beach Resort",
+                                             "description":  "NULL",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/atienzas-beach-resort",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/116/gallery/20251210070516_ceec9c0c.jpg",
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "NULL",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "email":  "vicky.atienza001@deped.gov.ph",
+                                             "dateModified":  "2026-02-09",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Barber\u0027s Resort",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/barbers-resort",
+                       "description":  "Barber\u0027s Resort offers resort accommodations with various recreational facilities.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/139/gallery/20251211010152_69c668bb.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Babangonan, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.19639826,
+                                   "longitude":  121.2695683
+                               },
+                       "telephone":  "09778051474",
+                       "email":  "rgbarber@up.edu.ph",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-11",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Barber\u0027s Resort?",
+                                       "answer":  "Barber\u0027s Resort is located in Victoria, Oriental Mindoro. The address is Babangonan, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Barber\u0027s Resort?",
+                                       "answer":  "Barber\u0027s Resort is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/barbers-resort",
+                                             "name":  "Barber\u0027s Resort",
+                                             "description":  "Barber\u0027s Resort offers resort accommodations with various recreational facilities.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/barbers-resort",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/139/gallery/20251211010152_69c668bb.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.19639826,
+                                                         "longitude":  121.2695683
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Babangonan, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "09778051474",
+                                             "email":  "rgbarber@up.edu.ph",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/BarberPhilippines"
+                                                        ],
+                                             "dateModified":  "2025-12-11",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Dangare Hidden Resort",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/dangare-hidden-resort",
+                       "description":  "Dangare Hidden Resort offers secluded hidden resort experience for privacy.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/248/gallery/20251211065804_20378dea.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Villa Cerveza, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.12243648,
+                                   "longitude":  121.1933211
+                               },
+                       "telephone":  "0977-805-0305",
+                       "email":  null,
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Dangare Hidden Resort?",
+                                       "answer":  "Dangare Hidden Resort is located in Victoria, Oriental Mindoro. The address is Villa Cerveza, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Dangare Hidden Resort?",
+                                       "answer":  "Dangare Hidden Resort is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/dangare-hidden-resort",
+                                             "name":  "Dangare Hidden Resort",
+                                             "description":  "Dangare Hidden Resort offers secluded hidden resort experience for privacy.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/dangare-hidden-resort",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/248/gallery/20251211065804_20378dea.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.12243648,
+                                                         "longitude":  121.1933211
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Villa Cerveza, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0977-805-0305",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Matala Resort And Catering Services",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/matala-resort-and-catering-services",
+                       "description":  "Matala Resort and Catering Services offers resort accommodations with catering for events.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/499/gallery/20251212045710_7e55e5e8.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "poblacion 1, victoria, oriental mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.18004152,
+                                   "longitude":  121.2799542
+                               },
+                       "telephone":  "0905-707-0957",
+                       "email":  "matalaresortandhotel@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Matala Resort And Catering Services?",
+                                       "answer":  "Matala Resort And Catering Services is located in Victoria, Oriental Mindoro. The address is poblacion 1, victoria, oriental mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Matala Resort And Catering Services?",
+                                       "answer":  "Matala Resort And Catering Services is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/matala-resort-and-catering-services",
+                                             "name":  "Matala Resort And Catering Services",
+                                             "description":  "Matala Resort and Catering Services offers resort accommodations with catering for events.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/matala-resort-and-catering-services",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/499/gallery/20251212045710_7e55e5e8.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.18004152,
+                                                         "longitude":  121.2799542
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "poblacion 1, victoria, oriental mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0905-707-0957",
+                                             "email":  "matalaresortandhotel@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Oliyette Resort And Restaurant",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/oliyette-resort-and-restaurant",
+                       "description":  "Oliyette Resort and Restaurant combines resort accommodations with restaurant dining.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/565/gallery/20251212075612_a8dd7ce8.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "sampaguita, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.15794105,
+                                   "longitude":  121.2609499
+                               },
+                       "telephone":  "0931 769 5787",
+                       "email":  "oliyetteresortandrestaurant@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Oliyette Resort And Restaurant?",
+                                       "answer":  "Oliyette Resort And Restaurant is located in Victoria, Oriental Mindoro. The address is sampaguita, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Oliyette Resort And Restaurant?",
+                                       "answer":  "Oliyette Resort And Restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/oliyette-resort-and-restaurant",
+                                             "name":  "Oliyette Resort And Restaurant",
+                                             "description":  "Oliyette Resort and Restaurant combines resort accommodations with restaurant dining.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/oliyette-resort-and-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/565/gallery/20251212075612_a8dd7ce8.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.15794105,
+                                                         "longitude":  121.2609499
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "sampaguita, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0931 769 5787",
+                                             "email":  "oliyetteresortandrestaurant@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Triple L Swimming Pool",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/triple-l-swimming-pool",
+                       "description":  "Triple L Swimming Pool provides swimming pool facilities for day use.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/786/gallery/20251212054647_89afd0c5.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion 2, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.1973166,
+                                   "longitude":  121.2738681
+                               },
+                       "telephone":  "0977-856-5758",
+                       "email":  "lydelmalaluan@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Triple L Swimming Pool?",
+                                       "answer":  "Triple L Swimming Pool is located in Victoria, Oriental Mindoro. The address is Poblacion 2, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Triple L Swimming Pool?",
+                                       "answer":  "Triple L Swimming Pool is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/triple-l-swimming-pool",
+                                             "name":  "Triple L Swimming Pool",
+                                             "description":  "Triple L Swimming Pool provides swimming pool facilities for day use.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/triple-l-swimming-pool",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/786/gallery/20251212054647_89afd0c5.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.1973166,
+                                                         "longitude":  121.2738681
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion 2, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0977-856-5758",
+                                             "email":  "lydelmalaluan@yahoo.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/Triple-L-Swimming-pool-255145484976779"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Victoria\u0027s Resort",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/victorias-resort",
+                       "description":  "Discover Victoria\u0027s Resort in Victoria, Oriental Mindoro",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/805/gallery/20251212062210_ed89d213.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Bayanan II, Calapan City, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.35350643,
+                                   "longitude":  121.1742228
+                               },
+                       "telephone":  "9467503441",
+                       "email":  "victoriaresort@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Victoria\u0027s Resort?",
+                                       "answer":  "Victoria\u0027s Resort is located in Victoria, Oriental Mindoro. The address is Bayanan II, Calapan City, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Victoria\u0027s Resort?",
+                                       "answer":  "Victoria\u0027s Resort is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/victorias-resort",
+                                             "name":  "Victoria\u0027s Resort",
+                                             "description":  "Discover Victoria\u0027s Resort in Victoria, Oriental Mindoro",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/victorias-resort",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/805/gallery/20251212062210_ed89d213.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.35350643,
+                                                         "longitude":  121.1742228
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Bayanan II, Calapan City, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "9467503441",
+                                             "email":  "victoriaresort@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Villa Bautista Resort and Hotel",
+                       "category":  "resort",
+                       "url":  "https://www.travelorientalmindoro.ph/place/villa-bautista-resort-and-hotel",
+                       "description":  "Villa Bautista Resort and Hotel features villa-style accommodations with hotel services.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/809/gallery/20251212062845_32c40a08.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "poblacion 2, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.18372113,
+                                   "longitude":  121.2824039
+                               },
+                       "telephone":  "0906-237-3209",
+                       "email":  "cgasic18@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Villa Bautista Resort and Hotel?",
+                                       "answer":  "Villa Bautista Resort and Hotel is located in Victoria, Oriental Mindoro. The address is poblacion 2, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Villa Bautista Resort and Hotel?",
+                                       "answer":  "Villa Bautista Resort and Hotel is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Resort",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/villa-bautista-resort-and-hotel",
+                                             "name":  "Villa Bautista Resort and Hotel",
+                                             "description":  "Villa Bautista Resort and Hotel features villa-style accommodations with hotel services.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/villa-bautista-resort-and-hotel",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/809/gallery/20251212062845_32c40a08.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.18372113,
+                                                         "longitude":  121.2824039
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "poblacion 2, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0906-237-3209",
+                                             "email":  "cgasic18@yahoo.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/VillaBautistaResort"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "88 Hotel and Events Center",
+                       "category":  "hotel",
+                       "url":  "https://www.travelorientalmindoro.ph/place/88-hotel-and-events-center",
+                       "description":  "88 Hotel and Events Center provides hotel accommodations with event facilities.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/62/gallery/20251210023913_0ce598d0.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion III, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.17116561,
+                                   "longitude":  121.2789452
+                               },
+                       "telephone":  "09199943960",
+                       "email":  "nilaime_inciong@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is 88 Hotel and Events Center?",
+                                       "answer":  "88 Hotel and Events Center is located in Victoria, Oriental Mindoro. The address is Poblacion III, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit 88 Hotel and Events Center?",
+                                       "answer":  "88 Hotel and Events Center is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Hotel",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/88-hotel-and-events-center",
+                                             "name":  "88 Hotel and Events Center",
+                                             "description":  "88 Hotel and Events Center provides hotel accommodations with event facilities.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/88-hotel-and-events-center",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/62/gallery/20251210023913_0ce598d0.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.17116561,
+                                                         "longitude":  121.2789452
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion III, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "09199943960",
+                                             "email":  "nilaime_inciong@yahoo.com",
+                                             "sameAs":  [
+                                                            "https://facebook.com/88-Hotel-and-Event-Center-114008006808019.com"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Eighty Eight Hotel and Event Center",
+                       "category":  "hotel",
+                       "url":  "https://www.travelorientalmindoro.ph/place/eighty-eight-hotel-and-event-center",
+                       "description":  "NUL",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/279/gallery/20251213074243_dd831537.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  null,
+                       "telephone":  "9190069951",
+                       "email":  "nilaime_inciong@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-13",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Eighty Eight Hotel and Event Center?",
+                                       "answer":  "Eighty Eight Hotel and Event Center is located in Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Eighty Eight Hotel and Event Center?",
+                                       "answer":  "Eighty Eight Hotel and Event Center is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Hotel",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/eighty-eight-hotel-and-event-center",
+                                             "name":  "Eighty Eight Hotel and Event Center",
+                                             "description":  "NUL",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/eighty-eight-hotel-and-event-center",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/279/gallery/20251213074243_dd831537.jpg",
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "9190069951",
+                                             "email":  "nilaime_inciong@yahoo.com",
+                                             "dateModified":  "2025-12-13",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Lopez Hotel",
+                       "category":  "hotel",
+                       "url":  "https://www.travelorientalmindoro.ph/place/lopez-hotel",
+                       "description":  "NULL",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/456/gallery/20260210071657_ca696f1e.png",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Victoria",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  null,
+                       "telephone":  "0927 684 9387",
+                       "email":  "janrenzjv0925@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2026-02-10",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Lopez Hotel?",
+                                       "answer":  "Lopez Hotel is located in Victoria, Oriental Mindoro. The address is Victoria."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Lopez Hotel?",
+                                       "answer":  "Lopez Hotel is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Hotel",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/lopez-hotel",
+                                             "name":  "Lopez Hotel",
+                                             "description":  "NULL",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/lopez-hotel",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/456/gallery/20260210071657_ca696f1e.png",
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Victoria",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0927 684 9387",
+                                             "email":  "janrenzjv0925@gmail.com",
+                                             "dateModified":  "2026-02-10",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Victoria\u0027s Bed and Breakfast",
+                       "category":  "hotel",
+                       "url":  "https://www.travelorientalmindoro.ph/place/victorias-bed-and-breakfast",
+                       "description":  "Victoria\u0027s Bed and Breakfast provides B\u0026B accommodations with breakfast included.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/804/gallery/20251212062021_b1c5d051.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "San Isidro (White Beach), Puerto Galera",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.50441117,
+                                   "longitude":  120.9070586
+                               },
+                       "telephone":  "9178297887",
+                       "email":  "victoriasbb@icloud.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Victoria\u0027s Bed and Breakfast?",
+                                       "answer":  "Victoria\u0027s Bed and Breakfast is located in Victoria, Oriental Mindoro. The address is San Isidro (White Beach), Puerto Galera."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Victoria\u0027s Bed and Breakfast?",
+                                       "answer":  "Victoria\u0027s Bed and Breakfast is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Hotel",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/victorias-bed-and-breakfast",
+                                             "name":  "Victoria\u0027s Bed and Breakfast",
+                                             "description":  "Victoria\u0027s Bed and Breakfast provides B\u0026B accommodations with breakfast included.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/victorias-bed-and-breakfast",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/804/gallery/20251212062021_b1c5d051.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.50441117,
+                                                         "longitude":  120.9070586
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "San Isidro (White Beach), Puerto Galera",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "9178297887",
+                                             "email":  "victoriasbb@icloud.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Bradz Restaurant",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/bradz-restaurant",
+                       "description":  "Bradz Restaurant serves American and Filipino fusion cuisine.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/181/gallery/20251211030142_164eea95.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "San Isidro, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.14772047,
+                                   "longitude":  121.2878854
+                               },
+                       "telephone":  "0920-374-7154",
+                       "email":  null,
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Bradz Restaurant?",
+                                       "answer":  "Bradz Restaurant is located in Victoria, Oriental Mindoro. The address is San Isidro, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Bradz Restaurant?",
+                                       "answer":  "Bradz Restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/bradz-restaurant",
+                                             "name":  "Bradz Restaurant",
+                                             "description":  "Bradz Restaurant serves American and Filipino fusion cuisine.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/bradz-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/181/gallery/20251211030142_164eea95.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.14772047,
+                                                         "longitude":  121.2878854
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "San Isidro, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0920-374-7154",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/Bradz-Restaurant-1907516096153697"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Camai Cusina",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/camai-cusina",
+                       "description":  "Camai Cusina offers traditional Filipino home cooking and local dishes.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/205/gallery/20251211035337_0b816814.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Mabini, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.19853174,
+                                   "longitude":  121.2738848
+                               },
+                       "telephone":  "0967-886-0998",
+                       "email":  "camai.cusina19@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-11",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Camai Cusina?",
+                                       "answer":  "Camai Cusina is located in Victoria, Oriental Mindoro. The address is Mabini, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Camai Cusina?",
+                                       "answer":  "Camai Cusina is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/camai-cusina",
+                                             "name":  "Camai Cusina",
+                                             "description":  "Camai Cusina offers traditional Filipino home cooking and local dishes.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/camai-cusina",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/205/gallery/20251211035337_0b816814.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.19853174,
+                                                         "longitude":  121.2738848
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Mabini, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0967-886-0998",
+                                             "email":  "camai.cusina19@gmail.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/camaicusina3719"
+                                                        ],
+                                             "dateModified":  "2025-12-11",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Chipping\u0027s Restaurant",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/chippings-restaurant",
+                       "description":  "Chipping\u0027s Restaurant offers comfort food and Filipino favorites.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/226/gallery/20251211054354_c4e314af.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion 1, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.1844832,
+                                   "longitude":  121.2744697
+                               },
+                       "telephone":  "0966-572-6720",
+                       "email":  "chippingslm@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Chipping\u0027s Restaurant?",
+                                       "answer":  "Chipping\u0027s Restaurant is located in Victoria, Oriental Mindoro. The address is Poblacion 1, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Chipping\u0027s Restaurant?",
+                                       "answer":  "Chipping\u0027s Restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/chippings-restaurant",
+                                             "name":  "Chipping\u0027s Restaurant",
+                                             "description":  "Chipping\u0027s Restaurant offers comfort food and Filipino favorites.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/chippings-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/226/gallery/20251211054354_c4e314af.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.1844832,
+                                                         "longitude":  121.2744697
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion 1, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0966-572-6720",
+                                             "email":  "chippingslm@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "El Barco Restaurant",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/el-barco-restaurant",
+                       "description":  "El Barco Restaurant serves Spanish-inspired cuisine in boat-themed setting.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/281/gallery/20251211065257_b57ad94d.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion 2, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.18191861,
+                                   "longitude":  121.2752324
+                               },
+                       "telephone":  "0995-473-8664",
+                       "email":  "elbarcoresto@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is El Barco Restaurant?",
+                                       "answer":  "El Barco Restaurant is located in Victoria, Oriental Mindoro. The address is Poblacion 2, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit El Barco Restaurant?",
+                                       "answer":  "El Barco Restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/el-barco-restaurant",
+                                             "name":  "El Barco Restaurant",
+                                             "description":  "El Barco Restaurant serves Spanish-inspired cuisine in boat-themed setting.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/el-barco-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/281/gallery/20251211065257_b57ad94d.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.18191861,
+                                                         "longitude":  121.2752324
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion 2, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0995-473-8664",
+                                             "email":  "elbarcoresto@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Leo\u0027s Grill Hub",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/leos-grill-hub",
+                       "description":  "Leo\u0027s Grill Hub specializes in grilled meats and Filipino favorites.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/452/gallery/20251212021057_7ff46f16.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "poblacion 1, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.17314041,
+                                   "longitude":  121.2809026
+                               },
+                       "telephone":  "0935-388-8046",
+                       "email":  "leosgrillhub@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Leo\u0027s Grill Hub?",
+                                       "answer":  "Leo\u0027s Grill Hub is located in Victoria, Oriental Mindoro. The address is poblacion 1, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Leo\u0027s Grill Hub?",
+                                       "answer":  "Leo\u0027s Grill Hub is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/leos-grill-hub",
+                                             "name":  "Leo\u0027s Grill Hub",
+                                             "description":  "Leo\u0027s Grill Hub specializes in grilled meats and Filipino favorites.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/leos-grill-hub",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/452/gallery/20251212021057_7ff46f16.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.17314041,
+                                                         "longitude":  121.2809026
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "poblacion 1, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0935-388-8046",
+                                             "email":  "leosgrillhub@gmail.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "maxine\u0027s restaurant",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/maxines-restaurant",
+                       "description":  "Maxine\u0027s Restaurant serves Filipino and international cuisine with elegant presentation.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/504/gallery/20251212050328_118759bc.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "poblacion 4, victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.1875233,
+                                   "longitude":  121.2772239
+                               },
+                       "telephone":  null,
+                       "email":  "maxinesseafoods@gmail.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is maxine\u0027s restaurant?",
+                                       "answer":  "maxine\u0027s restaurant is located in Victoria, Oriental Mindoro. The address is poblacion 4, victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit maxine\u0027s restaurant?",
+                                       "answer":  "maxine\u0027s restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/maxines-restaurant",
+                                             "name":  "maxine\u0027s restaurant",
+                                             "description":  "Maxine\u0027s Restaurant serves Filipino and international cuisine with elegant presentation.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/maxines-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/504/gallery/20251212050328_118759bc.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.1875233,
+                                                         "longitude":  121.2772239
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "poblacion 4, victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "email":  "maxinesseafoods@gmail.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.comMaxinesRestaurant"
+                                                        ],
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Ritz Diamond Hotel and Restaurant",
+                       "category":  "restaurant",
+                       "url":  "https://www.travelorientalmindoro.ph/place/ritz-diamond-hotel-and-restaurant",
+                       "description":  "Ritz Diamond Hotel and Restaurant provides diamond-class accommodations with dining.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/665/gallery/20251213105754_140f07da.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion 1, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.17268948,
+                                   "longitude":  121.2778287
+                               },
+                       "telephone":  "0906-526-9548",
+                       "email":  "ritzdiamondhotel@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-13",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Ritz Diamond Hotel and Restaurant?",
+                                       "answer":  "Ritz Diamond Hotel and Restaurant is located in Victoria, Oriental Mindoro. The address is Poblacion 1, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Ritz Diamond Hotel and Restaurant?",
+                                       "answer":  "Ritz Diamond Hotel and Restaurant is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "Restaurant",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/ritz-diamond-hotel-and-restaurant",
+                                             "name":  "Ritz Diamond Hotel and Restaurant",
+                                             "description":  "Ritz Diamond Hotel and Restaurant provides diamond-class accommodations with dining.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/ritz-diamond-hotel-and-restaurant",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/665/gallery/20251213105754_140f07da.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.17268948,
+                                                         "longitude":  121.2778287
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion 1, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0906-526-9548",
+                                             "email":  "ritzdiamondhotel@yahoo.com",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/ritzdiamondhotel"
+                                                        ],
+                                             "dateModified":  "2025-12-13",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Grounded Café",
+                       "category":  "cafe_coffee_shop",
+                       "url":  "https://www.travelorientalmindoro.ph/place/grounded-cafe-64d2a571",
+                       "description":  "Discover Grounded Café in Victoria, Oriental Mindoro",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/878/gallery/20260210035019_d58de54d.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Old Public Market, Poblacion 1, Victoria",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  null,
+                       "telephone":  "0977 423 6791",
+                       "email":  null,
+                       "priceRange":  null,
+                       "dateModified":  "2026-02-10",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Grounded Café?",
+                                       "answer":  "Grounded Café is located in Victoria, Oriental Mindoro. The address is Old Public Market, Poblacion 1, Victoria."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Grounded Café?",
+                                       "answer":  "Grounded Café is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "CafeOrCoffeeShop",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/grounded-cafe-64d2a571",
+                                             "name":  "Grounded Café",
+                                             "description":  "Discover Grounded Café in Victoria, Oriental Mindoro",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/grounded-cafe-64d2a571",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/878/gallery/20260210035019_d58de54d.jpg",
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Old Public Market, Poblacion 1, Victoria",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0977 423 6791",
+                                             "sameAs":  [
+                                                            "https://www.facebook.com/profile.php?id=61582951894373"
+                                                        ],
+                                             "dateModified":  "2026-02-10",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   },
+                   {
+                       "name":  "Victoria V. Two Trading",
+                       "category":  "shopping",
+                       "url":  "https://www.travelorientalmindoro.ph/place/victoria-v-two-trading",
+                       "description":  "Victoria V. Two Trading offers various trading products and services.",
+                       "image":  "https://www.travelorientalmindoro.ph/uploads/places/803/gallery/20251212061850_0ea3b993.jpg",
+                       "address":  {
+                                       "@type":  "PostalAddress",
+                                       "streetAddress":  "Poblacion 1, Victoria, Oriental Mindoro",
+                                       "addressLocality":  "Victoria",
+                                       "addressRegion":  "Oriental Mindoro",
+                                       "addressCountry":  "PH"
+                                   },
+                       "geo":  {
+                                   "@type":  "GeoCoordinates",
+                                   "latitude":  13.1732875,
+                                   "longitude":  121.278265625
+                               },
+                       "location_note":  "Location decoded from user-provided Plus Code 57FH+886 using Victoria, Oriental Mindoro as the locality reference.",
+                       "telephone":  "0917-531-8388",
+                       "email":  "maricelnunala@yahoo.com",
+                       "priceRange":  null,
+                       "dateModified":  "2025-12-12",
+                       "rating":  null,
+                       "faq":  [
+                                   {
+                                       "question":  "Where is Victoria V. Two Trading?",
+                                       "answer":  "Victoria V. Two Trading is located in Victoria, Oriental Mindoro. The address is Poblacion 1, Victoria, Oriental Mindoro."
+                                   },
+                                   {
+                                       "question":  "How much does it cost to visit Victoria V. Two Trading?",
+                                       "answer":  "Victoria V. Two Trading is free to enter - there is no entrance fee."
+                                   }
+                               ],
+                       "source_schema":  {
+                                             "@context":  "https://schema.org",
+                                             "@type":  "ShoppingCenter",
+                                             "@id":  "https://www.travelorientalmindoro.ph/place/victoria-v-two-trading",
+                                             "name":  "Victoria V. Two Trading",
+                                             "description":  "Victoria V. Two Trading offers various trading products and services.",
+                                             "url":  "https://www.travelorientalmindoro.ph/place/victoria-v-two-trading",
+                                             "image":  "https://www.travelorientalmindoro.ph/uploads/places/803/gallery/20251212061850_0ea3b993.jpg",
+                                             "geo":  {
+                                                         "@type":  "GeoCoordinates",
+                                                         "latitude":  13.1732875,
+                                                         "longitude":  121.278265625
+                                                     },
+                                             "address":  {
+                                                             "@type":  "PostalAddress",
+                                                             "streetAddress":  "Poblacion 1, Victoria, Oriental Mindoro",
+                                                             "addressLocality":  "Victoria",
+                                                             "addressRegion":  "Oriental Mindoro",
+                                                             "addressCountry":  "PH"
+                                                         },
+                                             "telephone":  "0917-531-8388",
+                                             "email":  "maricelnunala@yahoo.com",
+                                             "dateModified":  "2025-12-12",
+                                             "isPartOf":  {
+                                                              "@type":  "TouristDestination",
+                                                              "name":  "Victoria, Oriental Mindoro",
+                                                              "containedInPlace":  {
+                                                                                       "@type":  "AdministrativeArea",
+                                                                                       "name":  "Oriental Mindoro, Philippines"
+                                                                                   }
+                                                          }
+                                         }
+                   }
+               ],
+    "coverage_note":  "Contains all 27 destinations reported in the Victoria municipality overview, organized into broad place categories. Individual listing fields are included when present in page structured data; missing source values remain null or empty."
+}

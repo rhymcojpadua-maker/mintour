@@ -1,0 +1,40 @@
+{
+    "name": "mintour/victoria-tourism",
+    "type": "project",
+    "description": "MinTour: AI-powered bilingual tourism information and destination promotion for Victoria, Oriental Mindoro.",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0",
+        "laravel/tinker": "^2.9",
+        "guzzlehttp/guzzle": "^7.8",
+        "intervention/image": "^3.5",
+        "spatie/laravel-sluggable": "^3.6"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pint": "^1.17",
+        "laravel/sail": "^1.30",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.1",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php artisan package:discover --ansi"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
