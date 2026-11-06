@@ -85,7 +85,7 @@ class VictoriaDemoSeeder extends Seeder
                 'best_time' => 'Evening for the illuminated facade',
                 'distance_km' => 0,
                 'is_featured' => true,
-                'cover_image' => url('/images/victoria-municipality.jpg'),
+                'cover_image' => '/images/victoria-municipality.jpg',
             ],
             [
                 'category_id' => $map['Nature'],

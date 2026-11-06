@@ -171,6 +171,19 @@ class VictoriaPortalSeederTest extends TestCase
         $this->assertFileExists(public_path($photoPath));
     }
 
+    public function test_municipal_hall_photo_uses_a_public_path_even_for_old_local_urls(): void
+    {
+        $photoPath = '/images/victoria-municipality.jpg';
+
+        $this->assertSame($photoPath, MediaUrl::resolve('http://127.0.0.1:8000/images/victoria-municipality.jpg'));
+        $this->assertSame($photoPath, MediaUrl::resolve('http://mintour.test/images/victoria-municipality.jpg'));
+
+        Artisan::call('db:seed', ['--class' => VictoriaDemoSeeder::class]);
+
+        $this->assertSame($photoPath, Destination::where('slug', 'victoria-municipal-hall-plaza')->value('cover_image'));
+        $this->assertFileExists(public_path($photoPath));
+    }
+
     public function test_user_supplied_matala_resort_photo_is_used_for_the_portal_listing(): void
     {
         $photoPath = '/images/accommodations/matala-resort.png';

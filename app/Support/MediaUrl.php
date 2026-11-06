@@ -14,6 +14,15 @@ class MediaUrl
         }
 
         if (Str::startsWith($path, ['http://', 'https://'])) {
+            $url = parse_url($path);
+            $host = strtolower($url['host'] ?? '');
+
+            if (in_array($host, ['localhost', '127.0.0.1', '::1'], true) || Str::endsWith($host, '.test')) {
+                return ($url['path'] ?? '/')
+                    . (isset($url['query']) ? '?'.$url['query'] : '')
+                    . (isset($url['fragment']) ? '#'.$url['fragment'] : '');
+            }
+
             return $path;
         }
 
