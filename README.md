@@ -36,6 +36,33 @@ The standard database seed imports the 27 public Victoria listings from `victori
 php artisan db:seed --class=VictoriaPortalSeeder
 ```
 
+## Deploying to Render
+
+This repository's main application is Laravel. Deploy it as a **Docker** web service, not as the separate Node API:
+
+1. Push the repository, including `Dockerfile`, `.dockerignore`, and `docker/entrypoint.sh`, to GitHub.
+2. In Render, create a Web Service for this repository and select **Docker** as the language.
+3. Leave **Root Directory**, **Build Command**, and **Start Command** blank. Render uses the root `Dockerfile`; it builds the Vite assets and starts Apache on Render's `PORT`.
+4. Create a production MySQL database with an external provider and make sure it accepts connections from Render. Render's managed database offering is PostgreSQL; this app currently requires MySQL. Add these environment variables to the web service:
+
+   | Key | Value |
+   | --- | --- |
+   | `APP_ENV` | `production` |
+   | `APP_DEBUG` | `false` |
+   | `APP_KEY` | Generate with `php artisan key:generate --show` |
+   | `APP_URL` | Your Render service URL, including `https://` |
+   | `DB_CONNECTION` | `mysql` |
+   | `DB_HOST` | MySQL host |
+   | `DB_PORT` | MySQL port |
+   | `DB_DATABASE` | MySQL database name |
+   | `DB_USERNAME` | MySQL username |
+   | `DB_PASSWORD` | MySQL password |
+   | `GROQ_API_KEY` | Optional; required for the chatbot |
+
+   Keep secrets in Render's environment settings, not in Git. The container runs `php artisan migrate --force` at startup.
+
+Render's free service filesystem is temporary. Admin-uploaded images may be lost when the service restarts or deploys; use object storage or a persistent disk for uploads. Do not seed production with the demo accounts and passwords in `RoleUsersSeeder`.
+
 ## Admin login
 
 The seed creates the account configured by:
